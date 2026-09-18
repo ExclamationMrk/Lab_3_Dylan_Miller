@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="practice1.css">
+    <title>Practice4</title>
+</head>
+<body>
+    <h2>
+        Multiplication table
+    </h2>
+
+    <p>
+        Table Size
+    </p>
+    <form action="practice4.php" method="post" target="table_frame">
+        <input type="number" min="1" placeholder="table size" id="table_size" name="table_size" required>
+        <input type="submit" value="Submit">
+    </form>
+
+    <iframe name="table_frame" style="border:none; width:100%; height:600px; margin-top:20px;"></iframe>
+</body>
+</html>

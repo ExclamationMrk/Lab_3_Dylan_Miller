@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="rgb_border_manip.js"></script>
+</head>
+<body>
+    <h2 id="text_to_change">
+        Hello! This text and it's border will change when you type into the fields below!
+    </h2>
+
+    
+    <p>
+        color controls
+    </p>
+
+    <div id="color_div">
+        <form>
+            <input type="number" id="r" placeholder="R" max="256" min="0">
+        </form> 
+        
+        <form>
+            <input type="number" id="g" placeholder="G" max="256" min="0">
+        </form>   
+
+        <form>
+            <input type="number" id="b" placeholder="B" max="256" min="0">
+        </form>    
+    </div>
+     
+    <p>
+        border width controls
+    </p>
+    <form>
+       <input type="number" id="border_width" placeholder="0" min="0">
+    </form>  
+</body>
+</html>
